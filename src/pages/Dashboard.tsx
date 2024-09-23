@@ -226,10 +226,29 @@ const Dashboard: React.FC = () => {
               <hr />
             </div>
           ))}
-          <div className="p-2">
+          {/* <div className="p-2">
             <h1 className="text-lg font-bold">Map View</h1>
-            <div className="bg-slate-500">map</div>
-          </div>
+            <div className="bg-slate-500">
+              <iframe />
+            </div>
+          </div> */}
+          <div className="p-2">
+  <h1 className="text-lg font-bold">Map View</h1>
+  <div className="bg-slate-500 h-[400px] w-full overflow-hidden rounded-lg">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.3744994241626!2d7.92899241475834!3d5.039267596377745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104274728df04e5b%3A0x13de0100c76e40b3!2sUyo%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1695470000000!5m2!1sen!2sng"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      // allowFullScreen="gg"
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Map showing Uyo, Nigeria"
+    ></iframe>
+  </div>
+</div>
+
+
         </div>
       </div>
     </div>
