@@ -12,7 +12,7 @@ interface userDetail {
   gmail: string;
 }
 
-const Users: React.FC = () => {
+const Agent: React.FC = () => {
   const userD: userDetail[] = [
     {
       id: 1,
@@ -81,7 +81,7 @@ const Users: React.FC = () => {
   ];
   return (
     <div className="p-2 min-h-screen bg-slate-200 flex flex-col">
-      <h1 className="text-2xl font-bold py-5">User Details</h1>
+      <h1 className="text-2xl font-bold py-5">Angent Details</h1>
       <div className="grid grid-cols-3 gap-4">
         <div className="bg-white rounded-md shadow-lg p-4 py-4">
           <h1 className="text-2xl font-bold">2435</h1>
@@ -91,9 +91,9 @@ const Users: React.FC = () => {
           <h1 className="text-2xl font-bold">2435</h1>
           <p>Total Orders</p>
         </div>
-        <div className="bg-white rounded-md shadow-lg p-4">
-          <h1 className="text-2xl font-bold">2435</h1>
-          <p>Available Products</p>
+        <div className="bg-slate-950 text-white rounded-md shadow-lg p-4">
+          <h1 className="text-2xl ">Product</h1>
+          <p>Information</p>
         </div>
       </div>
       <div className="mt-4">
@@ -143,4 +143,4 @@ const Users: React.FC = () => {
   );
 };
 
-export default Users;
+export default Agent;
